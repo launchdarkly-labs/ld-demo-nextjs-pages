@@ -2,6 +2,14 @@
 
 This project demonstrates the integration of LaunchDarkly feature flags with a NextJS application. This demo is setup to A/B test the configuration of a email signup banner at 2 locations on the screen. It uses the react client SDK to pull feature flag information in.
 
+Start off by cloning down the project and installing the packages 
+
+```bash
+git clone https://github.com/launchdarkly-labs/ld-demo-nextjs-pages
+cd ld-demo-nextjs-pages 
+npm i
+```
+
 ## LaunchDarkly Setup
 
 1. Environment Variables:
