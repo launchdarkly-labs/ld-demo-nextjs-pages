@@ -262,7 +262,7 @@ export default function Component() {
       <footer className="bg-gray-800 py-8">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <div className="text-sm text-gray-400 mb-4 md:mb-0">
-            © 2023 SpaceSuit Co. All rights reserved.
+            © This is a LaunchDarkly Demo Application. We don't actually sell spacesuits.
           </div>
           <div className="flex space-x-4">
             <a href="#" className="text-gray-400 hover:text-white transition">

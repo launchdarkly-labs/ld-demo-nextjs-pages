@@ -1,7 +1,7 @@
 import { ReactNode, useEffect, useState } from 'react';
 import { asyncWithLDProvider, LDContext } from "launchdarkly-react-client-sdk";
 import { setCookie } from "cookies-next";
-import { faker } from '@faker-js/faker';
+import { faker } from "@faker-js/faker";
 
 interface LDProviderProps {
   children: ReactNode;
