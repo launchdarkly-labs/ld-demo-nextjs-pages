@@ -36,4 +36,17 @@ This project demonstrates the integration of LaunchDarkly feature flags with a N
      await client?.identify(newUser);
      ```
 
+Note that the initial context is being defined in `src/components/ldprovider.tsx` using FakerJS 
+
+```javascript
+const context: LDContext = {
+  key: faker.string.uuid(),
+  name: faker.person.fullName(),
+  email: faker.internet.email(),
+  appName: faker.company.name(),
+};
+``` 
+
+This configuration is updated when a user "logs in" using the sign in button, but ultimately you can refresh the page every time and initialize with a new random user.
+
 For more information on setting up and using LaunchDarkly, refer to the [LaunchDarkly documentation](https://docs.launchdarkly.com/).
